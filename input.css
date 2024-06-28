@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link-item {
+  @apply text-center py-3 px-20 rounded-md text-white font-semibold text-xs bg-[#333333] hover:bg-[#c5f82a] hover:text-[#141414] transition-all duration-300;
+}
